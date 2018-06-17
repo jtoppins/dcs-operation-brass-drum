@@ -1,0 +1,23 @@
+## RedFor Airforce
+
+### Airports
+
+**Bandar Abbas:**
+* Mig-21, 18 a/c (14 AI, 4 human) - CAP
+* F-4E, 18 a/c (all AI) - anti-ship & anti-radar strike group
+* E-2D, 3 a/c (all AI) - AWACS
+
+**Havadarya:**
+* Mig-21, 8 a/c (8 human) - CAP
+* Ka-50, 4 a/c (4 human) - anti-ship
+
+**Qeshm:**
+* Mig-29A, 10 a/c (8 AI, 2 human) - CAP
+
+**Bandar Lengeh**
+* Mig-29A, 8 a/c (4 human) - CAP
+
+**Airport ??**
+* Su-24M, 14 a/c (AI) - anti-ship & anti-radar strike group
+* F-14A, 8 a/c (AI) - CAP
+* 8 M2000C, 8 a/c (4 human) - Intercept
