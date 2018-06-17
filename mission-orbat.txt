@@ -12,12 +12,12 @@
 * Ka-50, 4 a/c (4 human) - anti-ship
 
 **Qeshm:**
-* Mig-29A, 10 a/c (8 AI, 2 human) - CAP
+* Mig-29A, 10 a/c (6 AI, 4 human) - CAP
 
 **Bandar Lengeh**
 * Mig-29A, 8 a/c (4 human) - CAP
 
-**Airport ??**
+**Lar Airbase**
 * Su-24M, 14 a/c (AI) - anti-ship & anti-radar strike group
 * F-14A, 8 a/c (AI) - CAP
 * 8 M2000C, 8 a/c (4 human) - Intercept
