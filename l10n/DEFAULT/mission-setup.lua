@@ -56,7 +56,7 @@ red_dispatcher:SetSquadronCap(sqdname, cap_zone_abbas,
 		1363, 1602,  -- 736 (400) to 865 (470) KTAS (KIAS)
 		1363, 1704,  -- 736 (400) to 920 (500) KTAS (KIAS)
 		"BARO")
-red_dispatcher:SetSquadronCapInterval(sqdname, 2, 600, 1800, 0)
+red_dispatcher:SetSquadronCapInterval(sqdname, 2, 600, 1800, 1)
 red_dispatcher:SetSquadronGci(sqdname, 900, 1200)
 
 -- Qeshm Squadron setup (Mig-29A squadron)
@@ -82,7 +82,7 @@ red_dispatcher:SetSquadronCap(sqdname, cap_zone_f14,
 		1102, 1139,  -- 595 (365) to 615 (375) KTAS (KIAS)
 		1102, 1518,  -- 595 (365) to 819 (500) knots ground speed
 		"BARO")
-red_dispatcher:SetSquadronCapInterval(sqdname, 2, 600, 1800, 0)
+red_dispatcher:SetSquadronCapInterval(sqdname, 2, 600, 1800, 1)
 red_dispatcher:SetSquadronLandingAtRunway(sqdname)
 red_dispatcher:SetSquadronTanker(sqdname, "red tanker")
 red_dispatcher:SetSquadronOverhead(sqdname, .5)
@@ -91,16 +91,12 @@ red_dispatcher:SetTacticalDisplay(true)
 -- Setup Redfor AWACS Respawn - max 3 a/c only 1 up at any one time
 red_awacs = SPAWN:New("red awacs")
 red_awacs:InitLimit(1, 3)
--- red_awacs:SpawnAtAirBase(AIRBASE:FindByName("Bandar Abbas Intl"),
---		SPAWN.Takeoff.Cold)
 red_awacs:InitRepeatOnLanding()
 red_awacs:SpawnScheduled(300, .2)
 
 -- Setup Redfor Tanker Respawn - max 3 a/c only 1 up at any one time
 red_tanker = SPAWN:New("red tanker")
 red_tanker:InitLimit(1, 3)
--- red_tanker:SpawnAtAirBase(AIRBASE:FindByName("Lar Airbase"),
---		SPAWN.Takeoff.Runway)
 red_tanker:InitRepeatOnLanding()
 red_tanker:SpawnScheduled(300, .2)
 
