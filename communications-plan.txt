@@ -1,0 +1,87 @@
+== Comm Plan Bluefor
+
+General Services:
+GUARD: 243 MHz
+
+AWACS: 251 MHz AM
+
+TAC Air: 255 MHz AM
+
+CVN: ATC 127.5 MHz AM - TACN: 35X (STN)
+
+LHA: ATC 127.5 MHz AM - TACN: 22X (TAR)
+
+Texaco: 265.5 MHz AM - TACN: 15Y (TEX)
+
+Shell: 270.5 MHz AM - TACN: 10Y (SHL)
+Divert Field: 250.000 MHz AM - TACAN: 84X (KSB)
+
+
+Preset A/C Channels:
+01. 127.5  <home tower freq - doubles as SRS ATC>
+02. 255    <tac air - doubles as common SRS channel>
+03. 251    <AI AWACS>
+04. 265.5  <texaco>
+05. 270.5  <shell>
+06. 250    <divert field>
+07. 270    <?? - SRS Human GCI>
+08. 30     <??>
+09. 30     <??>
+10. 300.25   <rest are preset flight channels>
+11. 302.35
+12. 304.12
+13. 306.75
+14. 308.25
+15. 310.125
+16. 312.22
+17. 314.35
+18. 316.21
+19. 318.2
+20. 320.12
+21. 322.25
+22. 324.25
+23. 326.25
+24. 328.25
+25. 330.25
+26. 332.25
+27. 334.25
+28. 336.25
+29. 338.25
+30. 340.25
+
+== Comm Plan Redfor
+
+EWR Jask:           230
+EWR Bander Abass:   232
+EWR Kuh-e Genow:    234
+AWACS:              236
+Refueling:          237
+TAC Air:            240
+SRS ATC:            228
+STS GCI:            238
+
+
+01. ?? <your home town freq>
+02. 228 <common SRS Human ATC>
+03. 240 <tac air - common SRS channel>
+04. 230 <ewr sector 1>
+05. 232 <ewr sector 2>
+06. 234 <ewr sector 3>
+07. 236 <awacs>
+08. 237 <refueling> TACAN: 35Y
+09. 238 <SRS Human GCI>
+10. 350
+11. 351
+12. 352
+13. 353
+14. 354
+15. 355
+16. 356
+17. 357
+18. 358
+19. 359
+20. 360
+
+M2000C - 225 - 400
+Mig-21 - 118 - 390
+Ka-50  - 20  - 59.9
